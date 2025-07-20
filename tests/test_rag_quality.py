@@ -1,6 +1,6 @@
 from deepeval import assert_test
 from deepeval.test_case import LLMTestCase
-from my_metrics import CustomFaithfulnessMetric  # adjust path if needed
+from custom_faithfulness_metric import CustomFaithfulnessMetric
 
 def test_rag_response_quality():
     test_case = LLMTestCase(
